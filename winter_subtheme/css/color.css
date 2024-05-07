@@ -1,0 +1,111 @@
+body {
+  background: var(--dark);
+}
+
+#navbar-main {
+  background-color: #103142;
+}
+
+#navbar-top {
+  background-color: var(--dark);
+}
+
+.nav-link {
+  color: var(--secondary);
+}
+
+.nav-link:hover {
+  color: var(--light);
+}
+
+.button:hover {
+  color: var(--light);
+}
+
+.navbar-brand {
+  color: var(--secondary);
+}
+
+.navbar-brand:hover {
+  color: var(--light);
+}
+
+.form-control {
+  border: 1px solid var(--secondary);
+}
+
+.navbar-toggler {
+  background-color: var(--light);
+  border: 2px solid var(--dark);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0;
+}
+
+button:focus {
+  outline: var(--dark);
+}
+
+.views-row {
+  background-color: var(--primary);
+  box-shadow: 0 0 0.25em var(--secondary), inset 0 0 1em var(--secondary);
+}
+
+em {
+  color: var(--light);
+}
+
+.views-row a {
+  color: var(--secondary);
+}
+
+p {
+  color: var(--light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary);
+}
+
+.node__title a .field {
+  color: var(--secondary);
+}
+
+.page-link {
+  background-color: var(--primary);
+}
+
+.page-link {
+  color: var(--secondary);
+}
+
+.page-item.active .page-link {
+  color: var(--light);
+}
+
+.block-block-content {
+  background-color: var(--primary);
+}
+
+.block-block-content h2 {
+  color: var(--secondary);
+}
+
+.site-footer {
+  box-shadow: inset 0 0 1em var(--secondary);
+  background-color: var(--primary);
+}
+
+.site-footer .block {
+  border-color: var(--secondary);
+}
+
+.site-footer h2 {
+  border-color: var(--secondary);
+}

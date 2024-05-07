@@ -1,0 +1,150 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+.navbar-collapse {
+  align-items: center;
+}
+
+.form-type-search {
+  margin-bottom: 0 !important;
+}
+
+.form-actions {
+  margin-bottom: 0 !important;
+}
+
+.burger_bread {
+  display: flex;
+  height: 57px;
+  width: auto;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.burger {
+  height: inherit;
+  align-self: center;
+}
+
+.navbar-toggler-icon {
+  height: 0;
+  width: 0;
+}
+
+.button {
+  color: var(--secondary);
+}
+
+.nav-link .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.view-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5rem 4rem;
+  margin-top: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1500px) {
+  .view-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .view-content {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    max-width: fit-content;
+  }
+  .main-content {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pagination {
+    margin-top: 1.5rem;
+  }
+}
+
+.view-content > .views-row {
+  display: grid;
+  gap: 0;
+  grid-template-rows: subgrid;
+  grid-row: span 7;
+}
+
+.views-row {
+  width: 35rem;
+  height: auto;
+  padding: 2rem;
+  max-height: 100%;
+  border: none;
+}
+
+.field--type-image {
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+
+.node__meta {
+  margin-bottom: 1rem;
+  display: grid;
+}
+
+.field--name-field-tags {
+  color: red;
+}
+
+.views-row:nth-last-child(-n + 4) {
+  background-color: var(--primary);
+}
+
+p {
+  margin: 1rem;
+}
+
+em {
+  color: powderblue;
+}
+
+.field_items {
+  color: red !important;
+}
+
+.field_label {
+  color: mediumvioletred;
+}
+
+.vissually-hidden {
+  background-color: steelblue;
+}
+
+.name-field-tags {
+  background-color: red;
+}
+
+.block-block-content {
+  width: fit-content;
+  block-size: fit-content;
+  max-width: none;
+}
+
+.pagination {
+  justify-content: center;
+}
